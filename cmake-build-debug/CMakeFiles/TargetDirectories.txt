@@ -1,0 +1,3 @@
+C:/Users/part4/Desktop/Grafika/cmake-build-debug/CMakeFiles/Grafika.dir
+C:/Users/part4/Desktop/Grafika/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/part4/Desktop/Grafika/cmake-build-debug/CMakeFiles/rebuild_cache.dir
