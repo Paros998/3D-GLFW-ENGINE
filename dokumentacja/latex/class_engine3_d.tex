@@ -1,0 +1,143 @@
+\hypertarget{class_engine3_d}{}\doxysection{Engine3D Class Reference}
+\label{class_engine3_d}\index{Engine3D@{Engine3D}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine3_d_a9e26f284a0e5e23f61047bd213fcdde8}{Engine3D}} (int screen\+Resolution, const char $\ast$title, int locked\+Fps, int display\+Form, bool use\+Keyboard, bool use\+Mouse, bool use\+Double\+Buffering, Colors screen\+Clear\+Color)
+\item 
+\mbox{\hyperlink{class_engine3_d_a79373bf8e7860b1ee79325b0ecbaf60a}{$\sim$\+Engine3D}} ()
+\item 
+int \mbox{\hyperlink{class_engine3_d_a6225ca131a704d51ab9865f646ae88e4}{run}} ()
+\item 
+void \mbox{\hyperlink{class_engine3_d_a4b26f6a5cd01d9621021942beb4ac65b}{render\+And\+Update}} (double new\+Time)
+\item 
+void \mbox{\hyperlink{class_engine3_d_a886699fd568fff4f0335b9f2327b15a7}{bg\+Update}} ()
+\item 
+double \mbox{\hyperlink{class_engine3_d_a04c031d5c1a8f29647292e55d227f17a}{update}} (vec3 object\+Pos)
+\item 
+void \mbox{\hyperlink{class_engine3_d_afd3b41291740c21f5dd346ea4c83fbf0}{prepare}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_engine3_d_a204f6208ae820fca4fe1889564c4d785}{display\+\_\+error\+\_\+message}} (int code, const char $\ast$description)
+\item 
+static void \mbox{\hyperlink{class_engine3_d_afebd134728d88e55d1c870c659f5c334}{error\+\_\+callback}} (int code, const char $\ast$description)
+\item 
+static Vector2i \mbox{\hyperlink{class_engine3_d_ab970dac5fc1c8417d581e1b3eaee3139}{get\+Screen\+Resolution}} (int screen\+Resolution\+Type)
+\item 
+static void \mbox{\hyperlink{class_engine3_d_a33a0dbfe6dba668c9a3d685251115632}{framebuffer\+\_\+size\+\_\+callback}} (G\+L\+F\+Wwindow $\ast$window, int width, int height)
+\item 
+static void \mbox{\hyperlink{class_engine3_d_a434632200ad76a410dd7a6747a084682}{key\+\_\+callback}} (G\+L\+F\+Wwindow $\ast$window, int key, int scancode, int action, int mods)
+\item 
+static void \mbox{\hyperlink{class_engine3_d_a5248eae314f2117aac8e75613da90746}{cursor\+\_\+position\+\_\+callback}} (G\+L\+F\+Wwindow $\ast$window, double xpos, double ypos)
+\item 
+static void \mbox{\hyperlink{class_engine3_d_a162c170c2350a94a5a0582e529d58e0a}{mouse\+\_\+button\+\_\+callback}} (G\+L\+F\+Wwindow $\ast$window, int button, int action, int mods)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_engine3_d_a9e26f284a0e5e23f61047bd213fcdde8}\label{class_engine3_d_a9e26f284a0e5e23f61047bd213fcdde8}} 
+\index{Engine3D@{Engine3D}!Engine3D@{Engine3D}}
+\index{Engine3D@{Engine3D}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{Engine3D()}{Engine3D()}}
+{\footnotesize\ttfamily Engine3\+D\+::\+Engine3D (\begin{DoxyParamCaption}\item[{int}]{screen\+Resolution,  }\item[{const char $\ast$}]{title,  }\item[{int}]{locked\+Fps,  }\item[{int}]{display\+Form,  }\item[{bool}]{use\+Keyboard,  }\item[{bool}]{use\+Mouse,  }\item[{bool}]{use\+Double\+Buffering,  }\item[{Colors}]{screen\+Clear\+Color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_engine3_d_a79373bf8e7860b1ee79325b0ecbaf60a}\label{class_engine3_d_a79373bf8e7860b1ee79325b0ecbaf60a}} 
+\index{Engine3D@{Engine3D}!````~Engine3D@{$\sim$Engine3D}}
+\index{````~Engine3D@{$\sim$Engine3D}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{$\sim$Engine3D()}{~Engine3D()}}
+{\footnotesize\ttfamily Engine3\+D\+::$\sim$\+Engine3D (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_engine3_d_a886699fd568fff4f0335b9f2327b15a7}\label{class_engine3_d_a886699fd568fff4f0335b9f2327b15a7}} 
+\index{Engine3D@{Engine3D}!bgUpdate@{bgUpdate}}
+\index{bgUpdate@{bgUpdate}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{bgUpdate()}{bgUpdate()}}
+{\footnotesize\ttfamily void Engine3\+D\+::bg\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_engine3_d_a5248eae314f2117aac8e75613da90746}\label{class_engine3_d_a5248eae314f2117aac8e75613da90746}} 
+\index{Engine3D@{Engine3D}!cursor\_position\_callback@{cursor\_position\_callback}}
+\index{cursor\_position\_callback@{cursor\_position\_callback}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{cursor\_position\_callback()}{cursor\_position\_callback()}}
+{\footnotesize\ttfamily static void Engine3\+D\+::cursor\+\_\+position\+\_\+callback (\begin{DoxyParamCaption}\item[{G\+L\+F\+Wwindow $\ast$}]{window,  }\item[{double}]{xpos,  }\item[{double}]{ypos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_engine3_d_a204f6208ae820fca4fe1889564c4d785}\label{class_engine3_d_a204f6208ae820fca4fe1889564c4d785}} 
+\index{Engine3D@{Engine3D}!display\_error\_message@{display\_error\_message}}
+\index{display\_error\_message@{display\_error\_message}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{display\_error\_message()}{display\_error\_message()}}
+{\footnotesize\ttfamily static void Engine3\+D\+::display\+\_\+error\+\_\+message (\begin{DoxyParamCaption}\item[{int}]{code,  }\item[{const char $\ast$}]{description }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_engine3_d_afebd134728d88e55d1c870c659f5c334}\label{class_engine3_d_afebd134728d88e55d1c870c659f5c334}} 
+\index{Engine3D@{Engine3D}!error\_callback@{error\_callback}}
+\index{error\_callback@{error\_callback}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{error\_callback()}{error\_callback()}}
+{\footnotesize\ttfamily static void Engine3\+D\+::error\+\_\+callback (\begin{DoxyParamCaption}\item[{int}]{code,  }\item[{const char $\ast$}]{description }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_engine3_d_a33a0dbfe6dba668c9a3d685251115632}\label{class_engine3_d_a33a0dbfe6dba668c9a3d685251115632}} 
+\index{Engine3D@{Engine3D}!framebuffer\_size\_callback@{framebuffer\_size\_callback}}
+\index{framebuffer\_size\_callback@{framebuffer\_size\_callback}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{framebuffer\_size\_callback()}{framebuffer\_size\_callback()}}
+{\footnotesize\ttfamily static void Engine3\+D\+::framebuffer\+\_\+size\+\_\+callback (\begin{DoxyParamCaption}\item[{G\+L\+F\+Wwindow $\ast$}]{window,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_engine3_d_ab970dac5fc1c8417d581e1b3eaee3139}\label{class_engine3_d_ab970dac5fc1c8417d581e1b3eaee3139}} 
+\index{Engine3D@{Engine3D}!getScreenResolution@{getScreenResolution}}
+\index{getScreenResolution@{getScreenResolution}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{getScreenResolution()}{getScreenResolution()}}
+{\footnotesize\ttfamily static Vector2i Engine3\+D\+::get\+Screen\+Resolution (\begin{DoxyParamCaption}\item[{int}]{screen\+Resolution\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_engine3_d_a434632200ad76a410dd7a6747a084682}\label{class_engine3_d_a434632200ad76a410dd7a6747a084682}} 
+\index{Engine3D@{Engine3D}!key\_callback@{key\_callback}}
+\index{key\_callback@{key\_callback}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{key\_callback()}{key\_callback()}}
+{\footnotesize\ttfamily static void Engine3\+D\+::key\+\_\+callback (\begin{DoxyParamCaption}\item[{G\+L\+F\+Wwindow $\ast$}]{window,  }\item[{int}]{key,  }\item[{int}]{scancode,  }\item[{int}]{action,  }\item[{int}]{mods }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_engine3_d_a162c170c2350a94a5a0582e529d58e0a}\label{class_engine3_d_a162c170c2350a94a5a0582e529d58e0a}} 
+\index{Engine3D@{Engine3D}!mouse\_button\_callback@{mouse\_button\_callback}}
+\index{mouse\_button\_callback@{mouse\_button\_callback}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{mouse\_button\_callback()}{mouse\_button\_callback()}}
+{\footnotesize\ttfamily static void Engine3\+D\+::mouse\+\_\+button\+\_\+callback (\begin{DoxyParamCaption}\item[{G\+L\+F\+Wwindow $\ast$}]{window,  }\item[{int}]{button,  }\item[{int}]{action,  }\item[{int}]{mods }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_engine3_d_afd3b41291740c21f5dd346ea4c83fbf0}\label{class_engine3_d_afd3b41291740c21f5dd346ea4c83fbf0}} 
+\index{Engine3D@{Engine3D}!prepare@{prepare}}
+\index{prepare@{prepare}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{prepare()}{prepare()}}
+{\footnotesize\ttfamily void Engine3\+D\+::prepare (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+0-\/Creation of V\+AO,V\+BO,E\+BO
+
+1-\/Binding of them
+
+2-\/Setting vertex linking for open\+GL (call once in prepare)
+
+color attribute
+
+texture attribute
+
+bg vao\textquotesingle{}s etc\mbox{\Hypertarget{class_engine3_d_a4b26f6a5cd01d9621021942beb4ac65b}\label{class_engine3_d_a4b26f6a5cd01d9621021942beb4ac65b}} 
+\index{Engine3D@{Engine3D}!renderAndUpdate@{renderAndUpdate}}
+\index{renderAndUpdate@{renderAndUpdate}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{renderAndUpdate()}{renderAndUpdate()}}
+{\footnotesize\ttfamily void Engine3\+D\+::render\+And\+Update (\begin{DoxyParamCaption}\item[{double}]{new\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+activate textures
+
+5-\/Test rendering\mbox{\Hypertarget{class_engine3_d_a6225ca131a704d51ab9865f646ae88e4}\label{class_engine3_d_a6225ca131a704d51ab9865f646ae88e4}} 
+\index{Engine3D@{Engine3D}!run@{run}}
+\index{run@{run}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily int Engine3\+D\+::run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_engine3_d_a04c031d5c1a8f29647292e55d227f17a}\label{class_engine3_d_a04c031d5c1a8f29647292e55d227f17a}} 
+\index{Engine3D@{Engine3D}!update@{update}}
+\index{update@{update}!Engine3D@{Engine3D}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily double Engine3\+D\+::update (\begin{DoxyParamCaption}\item[{vec3}]{object\+Pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_engine3_d_8cpp}{Engine3\+D.\+cpp}}\end{DoxyCompactItemize}

@@ -52,7 +52,77 @@ build cmake_object_order_depends_target_Grafika: phony || CMakeFiles/Grafika.dir
 build CMakeFiles/Grafika.dir/src/main.cpp.obj: CXX_COMPILER__Grafika_Debug C$:/Users/part4/Desktop/Grafika/src/main.cpp || cmake_object_order_depends_target_Grafika
   DEP_FILE = CMakeFiles\Grafika.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++1z
-  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include
+  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include -IC:/Users/part4/Desktop/Grafika/include
+  OBJECT_DIR = CMakeFiles\Grafika.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grafika.dir\src
+
+build CMakeFiles/Grafika.dir/src/glad.c.obj: C_COMPILER__Grafika_Debug C$:/Users/part4/Desktop/Grafika/src/glad.c || cmake_object_order_depends_target_Grafika
+  DEP_FILE = CMakeFiles\Grafika.dir\src\glad.c.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include -IC:/Users/part4/Desktop/Grafika/include
+  OBJECT_DIR = CMakeFiles\Grafika.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grafika.dir\src
+
+build CMakeFiles/Grafika.dir/src/Vector2i.cpp.obj: CXX_COMPILER__Grafika_Debug C$:/Users/part4/Desktop/Grafika/src/Vector2i.cpp || cmake_object_order_depends_target_Grafika
+  DEP_FILE = CMakeFiles\Grafika.dir\src\Vector2i.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include -IC:/Users/part4/Desktop/Grafika/include
+  OBJECT_DIR = CMakeFiles\Grafika.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grafika.dir\src
+
+build CMakeFiles/Grafika.dir/src/Colors.cpp.obj: CXX_COMPILER__Grafika_Debug C$:/Users/part4/Desktop/Grafika/src/Colors.cpp || cmake_object_order_depends_target_Grafika
+  DEP_FILE = CMakeFiles\Grafika.dir\src\Colors.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include -IC:/Users/part4/Desktop/Grafika/include
+  OBJECT_DIR = CMakeFiles\Grafika.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grafika.dir\src
+
+build CMakeFiles/Grafika.dir/src/Constants.cpp.obj: CXX_COMPILER__Grafika_Debug C$:/Users/part4/Desktop/Grafika/src/Constants.cpp || cmake_object_order_depends_target_Grafika
+  DEP_FILE = CMakeFiles\Grafika.dir\src\Constants.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include -IC:/Users/part4/Desktop/Grafika/include
+  OBJECT_DIR = CMakeFiles\Grafika.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grafika.dir\src
+
+build CMakeFiles/Grafika.dir/src/Shader.cpp.obj: CXX_COMPILER__Grafika_Debug C$:/Users/part4/Desktop/Grafika/src/Shader.cpp || cmake_object_order_depends_target_Grafika
+  DEP_FILE = CMakeFiles\Grafika.dir\src\Shader.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include -IC:/Users/part4/Desktop/Grafika/include
+  OBJECT_DIR = CMakeFiles\Grafika.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grafika.dir\src
+
+build CMakeFiles/Grafika.dir/src/Texture.cpp.obj: CXX_COMPILER__Grafika_Debug C$:/Users/part4/Desktop/Grafika/src/Texture.cpp || cmake_object_order_depends_target_Grafika
+  DEP_FILE = CMakeFiles\Grafika.dir\src\Texture.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include -IC:/Users/part4/Desktop/Grafika/include
+  OBJECT_DIR = CMakeFiles\Grafika.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grafika.dir\src
+
+build CMakeFiles/Grafika.dir/src/stb_image.cpp.obj: CXX_COMPILER__Grafika_Debug C$:/Users/part4/Desktop/Grafika/src/stb_image.cpp || cmake_object_order_depends_target_Grafika
+  DEP_FILE = CMakeFiles\Grafika.dir\src\stb_image.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include -IC:/Users/part4/Desktop/Grafika/include
+  OBJECT_DIR = CMakeFiles\Grafika.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grafika.dir\src
+
+build CMakeFiles/Grafika.dir/src/Engine3D.cpp.obj: CXX_COMPILER__Grafika_Debug C$:/Users/part4/Desktop/Grafika/src/Engine3D.cpp || cmake_object_order_depends_target_Grafika
+  DEP_FILE = CMakeFiles\Grafika.dir\src\Engine3D.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include -IC:/Users/part4/Desktop/Grafika/include
+  OBJECT_DIR = CMakeFiles\Grafika.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grafika.dir\src
+
+build CMakeFiles/Grafika.dir/src/Vector2.cpp.obj: CXX_COMPILER__Grafika_Debug C$:/Users/part4/Desktop/Grafika/src/Vector2.cpp || cmake_object_order_depends_target_Grafika
+  DEP_FILE = CMakeFiles\Grafika.dir\src\Vector2.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include -IC:/Users/part4/Desktop/Grafika/include
+  OBJECT_DIR = CMakeFiles\Grafika.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grafika.dir\src
+
+build CMakeFiles/Grafika.dir/src/Sphere.cpp.obj: CXX_COMPILER__Grafika_Debug C$:/Users/part4/Desktop/Grafika/src/Sphere.cpp || cmake_object_order_depends_target_Grafika
+  DEP_FILE = CMakeFiles\Grafika.dir\src\Sphere.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  INCLUDES = -IC:/Users/part4/Desktop/Grafika/GLFW/include -IC:/Users/part4/Desktop/Grafika/include
   OBJECT_DIR = CMakeFiles\Grafika.dir
   OBJECT_FILE_DIR = CMakeFiles\Grafika.dir\src
 
@@ -64,7 +134,7 @@ build CMakeFiles/Grafika.dir/src/main.cpp.obj: CXX_COMPILER__Grafika_Debug C$:/U
 #############################################
 # Link the executable Grafika.exe
 
-build Grafika.exe: CXX_EXECUTABLE_LINKER__Grafika_Debug CMakeFiles/Grafika.dir/src/main.cpp.obj
+build Grafika.exe: CXX_EXECUTABLE_LINKER__Grafika_Debug CMakeFiles/Grafika.dir/src/main.cpp.obj CMakeFiles/Grafika.dir/src/glad.c.obj CMakeFiles/Grafika.dir/src/Vector2i.cpp.obj CMakeFiles/Grafika.dir/src/Colors.cpp.obj CMakeFiles/Grafika.dir/src/Constants.cpp.obj CMakeFiles/Grafika.dir/src/Shader.cpp.obj CMakeFiles/Grafika.dir/src/Texture.cpp.obj CMakeFiles/Grafika.dir/src/stb_image.cpp.obj CMakeFiles/Grafika.dir/src/Engine3D.cpp.obj CMakeFiles/Grafika.dir/src/Vector2.cpp.obj CMakeFiles/Grafika.dir/src/Sphere.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lglfw3  -lgdi32  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LC:/Users/part4/Desktop/Grafika/GLFW/lib-mingw-w64
